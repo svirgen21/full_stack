@@ -1,0 +1,106 @@
+
+body {
+    background-color:rgb(39, 51, 56) ;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    color: rgb(105, 133, 146);
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+p {
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.img1 {
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 2px; 
+    padding: 5px; 
+    background-color: #E6CBBF; 
+}
+.img2 {
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 2px; 
+    padding: 5px; 
+    background-color:#A0C1CB;
+}
+.img3 {
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 2px; 
+    padding: 5px; 
+    background-color: #BCBDBF;
+}
+.img4 {
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 2px; 
+    padding: 5px; 
+    background-color: #8C94A1;
+}
+.img5 {
+    margin: 20px;
+    border: 2px solid black; 
+    border-radius: 2px; 
+    padding: 5px; 
+    background-color:#B2B2AA;
+}
+.e1{ 
+    font-weight: bold; 
+    font-style: italic;
+    font-family:Arial, Gadget, sans-serif; 
+    font-size: 20px;
+    color: #E6CBBF;
+    
+}
+.e1::first-letter{
+    font-size: 1.5em;
+}
+.e2{
+    font-weight: bold; 
+    font-style: italic;
+    font-size: 20px;
+    color: #A0C1CB;
+    font-family:Arial, Gadget, sans-serif; 
+}
+.e2::first-letter{
+    font-size: 1.5em;
+}
+.e3{
+    font-weight: bold; 
+    font-size: 20px;
+    font-style: italic;
+    color: #BCBDBF;
+    font-family:Arial, Gadget, sans-serif; 
+}
+.e3::first-letter{
+    font-size: 1.5em;
+}
+.e4{
+    font-weight: bold;
+    font-style: italic; 
+    font-size: 20px;
+    color: #8C94A1;
+    font-family:Arial, Gadget, sans-serif; 
+}
+.e4::first-letter{
+    font-size: 1.5em;
+}
+.e5{
+    font-weight: bold;
+    font-style: italic; 
+    font-size: 20px;
+    color: #B2B2AA;
+    font-family:Arial, Gadget, sans-serif; 
+}
+.e5::first-letter{
+    font-size: 1.5em;
+}
