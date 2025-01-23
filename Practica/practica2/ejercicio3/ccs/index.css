@@ -1,0 +1,78 @@
+body{
+
+    background-color: white;
+
+}
+header{
+    text-align: center;
+    padding: 20px;
+    
+}
+h1 {
+    font-size: 32px;
+    color: rgb(187, 83, 151);
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.logo {
+    width: 200px;
+}
+
+.hoteles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 0 10px;
+}
+.hoteles h2{
+    font-size: 16px;
+    color: rgb(187, 83, 151);
+    letter-spacing: 8px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+   
+    
+}
+.hoteles p{
+    font-size: 18px;
+    color: #768db7;
+    line-height: 1.8;
+    text-align: justify;
+    
+}
+
+.century{
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    float:right;
+
+}
+.caribbean{
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    float:left;
+
+
+}
+.animal{
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+    float:right;
+
+}
+.mickey{
+    max-width: 100%;
+    margin: 20px;
+}
