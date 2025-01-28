@@ -28,3 +28,15 @@ a[href]{
     color: rgb(42, 123, 76);
     font-size: 40px;
 }
+
+h1,h2.h3 {
+    
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    
+    font-family: "Corinthia", serif;
+    font-weight: 700;
+    font-style: normal;
+}
