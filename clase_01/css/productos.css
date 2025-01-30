@@ -1,41 +1,60 @@
+/* tipografias importadas desde gogle fornt*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Selector universal; a todos los elemntos html del archivo al que lo linkeamos*/
-*{
+* {
     font-style: italic;
 
 
 }
-p{
+
+p {
     color: blue;
     font-size: 50px;
 }
+
 /* Selector de clase */
 .parrafo {
     color: red;
     font-size: 20px;
 }
 
+.import {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+
+}
+
 /*selector del id */
-#comodni{
+#comodni {
     color: green;
     font-size: 30px;
 }
+
 /* Selector por atributo*/
-p[title]{
-    color : black;
+p[title] {
+    color: black;
     font-size: 40px;
 }
-a[href]{
+
+a[href] {
     color: rgb(42, 123, 76);
     font-size: 40px;
 }
 
-h1,h2.h3 {
-    
+h1,
+h2.h3 {
+
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p{
-    
+
+p {
+
     font-family: "Corinthia", serif;
     font-weight: 700;
     font-style: normal;
