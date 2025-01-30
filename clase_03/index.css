@@ -1,0 +1,37 @@
+.titulo{
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    border-top: solid 10px black;
+    border-right: solid 5px red;
+    border-bottom: solid 1px blue;
+    border-left: solid 8px green;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+.caja {
+   margin: 80px 90px 120px 150px;
+   padding: 90px 75px;
+   text-align: center; /*centramos el texto */
+}
+.caja1 {
+    margin: 80px 90px 120px 150px;
+    padding: 90px 75px;
+    text-align: right; /*centramos el texto */
+ }
+ .caja2 {
+    margin: 80px 90px 120px 150px;
+    padding: 90px 75px;
+    text-align: left; /*centramos el texto */
+ }
+ .caja3 {
+   
+    text-align: justify; /*centramos el texto */
+ }
+button {
+    margin-right: 50px;
+}
