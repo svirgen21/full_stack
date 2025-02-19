@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario con JS</title>
+    <!-- agregamos js en nuestra cabecera del archivo html -->
+    <script>
+        //comentario de una línea
+        // es una funcion por defecto alert es una función que muestra un mensaje en una ventana emergente
+        alert("Hola bienvenido a mi formulario");
+    </script>
 </head>
 <body>
 
@@ -24,8 +31,8 @@
 
     <!-- son los únicos elementos que permiten al usuario introducir datos -->
     <!-- todos los formularios necesitan el elemento form: es el contedor padre -->
-     <!-- action: es el archivo donde el form enviará los datos que el usuario envía -->
-      <!-- metodo: la forma en la que enviamos los datos -->
+    <!-- action: es el archivo donde el form enviará los datos que el usuario envía -->
+    <!-- metodo: la forma en la que enviamos los datos -->
 
         <form action="submit_form.php" method="post">
             <!-- label: info para el user -->
@@ -44,19 +51,24 @@
             </select>
             <br>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="pepe@gmail.com" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+            <input 
+             type="email"
+             name="email" id="email" 
+             placeholder="pepe@gmail.com" 
+             pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" 
+             required>
             <br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" maxlength="8">
             <br>
             <button type="submit">Enviar Datos</button>
-            <button type="reset">Borrar Datos</button>
+            <button type="reset" onclick="saludar()">Borrar Datos</button>
         </form>
 
 
 
 
-
-
+<!-- Vinculamos el archivo js con el html  -->
+<script src="./formulario.js"></script>
 </body>
 </html>
