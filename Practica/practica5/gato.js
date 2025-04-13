@@ -6,7 +6,7 @@ let cantidadgatos = 10;
 let gatos = ['😺', '😸', '😹'];
 
 for (let i = 1; i <= cantidadgatos; i++) {
-      console.log(`gato # ${i}: ${gatos[(i - 1) % 3]}`);
+     console.log(`gato # ${i}: ${gatos[(i - 1) % 3]}`);
     }
 
 

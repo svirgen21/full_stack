@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./assets/logo.jpg" alt="Logo de la marca">
+            </div>
+
+            <!-- Contenedor del Menú -->
+            <div class="menu-container">
+                <div class="menu-toggle" id="menu-toggle">☰</div>
+                <ul id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="alta.html">Alta Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+
+            <!-- Barra de Búsqueda -->
+            <div class="search-container">
+                <input type="text" placeholder="Buscar..." class="search-input">
+            </div>
+        </nav>
+    </header>
+    
+    
+
+    <main>
+        
+        <h1>Alta de Servicios</h1>
+        <form id="formAlta">
+            <label for="nombre">Nombre del Servicio:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="precio">Precio Estimado:</label>
+            <input type="number" id="precio" required>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+
+            <button type="submit">Agregar Servicio</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MexiCanDemo - Saul Virgen</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

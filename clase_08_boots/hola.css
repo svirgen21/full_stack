@@ -1,0 +1,11 @@
+.color{
+    background:rgb(244,164,96);
+}
+.parrafo{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.parrafo-cursiva{
+    font-style: italic;
+}
